@@ -41,7 +41,7 @@ while [ true ]; do
 				echo $proc_id
 				kill -9 $proc_id
 				crash_date=$(date)
-				echo $crash_date " Server crash down! CPU usage: " $cpu_usage "%" > ts3-ac_crash.log
+				echo $crash_date " Server crash down! CPU usage: " $cpu_usage "%" >> ts3-ac_crash.log
 				sleep 1
 				echo "teamspeak3 down"
 				screen -d -m ./ts3server
