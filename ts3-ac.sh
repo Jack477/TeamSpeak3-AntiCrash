@@ -3,7 +3,7 @@ clear
 echo ""
 echo "#######################"
 echo "#TS3 anti-crash       #"
-echo "#ver 1.01 by Legos     #"
+echo "#ver 1.01 by Legos    #"
 echo "#######################"
 echo ""
 	log="ts3-ac_crash.log"
