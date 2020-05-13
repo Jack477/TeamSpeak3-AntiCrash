@@ -45,7 +45,7 @@ while [ true ]; do
 				sleep 1
 				echo "teamspeak3 down"
 				screen -d -m ./ts3server
-				sleep 1
+				sleep 10
 				fi
 		#else
 		#	echo "Can't find process"
